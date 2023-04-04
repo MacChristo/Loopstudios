@@ -11,38 +11,51 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
-  <body>
-    <main id="main">
-      <section class="header-sect">
-        <div class="main-head">
-          <header class="header">
+  <body id="body">
+    <main class="flex">
+      <section class="header-sect flex">
+        <div class="main-head flex">
+          <header class="flex" id="header">
             <a href="http://index.html">
               <img src="images/logo.svg" alt="Loopstudios-logo" class="logo" />
             </a>
+            <img
+              src="images/icon-hamburger.svg"
+              alt="hamburger"
+              class="hamburger"
+            />
+            <nav class="nav-bar flex">
+              <a href="http://links.html" class="nav-links">About</a>
+              <a href="http://links.html" class="nav-links">Careers</a>
+              <a href="http://links.html" class="nav-links">Events</a>
+              <a href="http://links.html" class="nav-links">Products</a>
+              <a href="http://links.html" class="nav-links">Support</a>
+            </nav>
           </header>
-          <img
-            src="images/icon-hamburger.svg"
-            alt="hamburger"
-            class="hamburger"
-          />
-          <nav class="nav-bar">
-            <a href="http://links.html" class="nav-links">About</a>
-            <a href="http://links.html" class="nav-links">Careers</a>
-            <a href="http://links.html" class="nav-links">Events</a>
-            <a href="http://links.html" class="nav-links">Products</a>
-            <a href="http://links.html" class="nav-links">Support</a>
-          </nav>
         </div>
         <div class="text-div">
           <p class="header-text">Immersive experiences that deliver</p>
         </div>
       </section>
       <section class="head-gear">
-        <img src="images/mobile/image-interactive.jpg" alt="VR" class="vr" />
-        <div class="text-div">
+        <img
+          src="images/mobile/image-interactive.jpg"
+          alt="VR"
+          class="vr-mobile img"
+        />
+        <img
+          src="images/mobile/image-interactive.jpg"
+          alt="desktop-vr"
+          class="vr-desktop"
+        />
+        <div>
           <h1 class="h1-leader">The leader in interactive VR</h1>
           <p class="para-leader">
             Founded in 2011, Loopstudios has been producing world-class virtual
@@ -52,75 +65,75 @@
           </p>
         </div>
       </section>
-      <section class="img-sect-mobile">
+      <section class="img-sect-mobile flex">
         <h1 class="creation">Our creations</h1>
-        <div class="img-div-mobile">
+        <div class="img-div-mobile flex">
           <fieldset>
             <img
               src="images/mobile/image-deep-earth.jpg"
               alt="deep-earth"
-              class="deep-earth-mobile"
+              class="deep-earth-mobile img"
             />
-            <legend class="deep-legend">Deep earth</legend>
+            <legend class="legend">Deep earth</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-night-arcade.jpg"
               alt="night-arcade"
-              class="night-arcade-mobile"
+              class="night-arcade-mobile img"
             />
-            <legend class="night-legend">Night arcade</legend>
+            <legend class="legend">Night arcade</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-soccer-team.jpg"
               alt="soccer-team"
-              class="soccer-team-mobile"
+              class="soccer-team-mobile img"
             />
-            <legend class="night-legend">Soccer team VR</legend>
+            <legend class="legend">Soccer team VR</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-grid.jpg"
               alt="grid"
-              class="grid-mobile"
+              class="grid-mobile img"
             />
-            <legend class="night-legend">The grid</legend>
+            <legend class="grid-legend legend">The grid</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-from-above.jpg"
               alt="from-above"
-              class="from-above-mobile"
+              class="from-above-mobile img"
             />
-            <legend class="night-legend">From up above VR</legend>
+            <legend class="legend">From up above VR</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-pocket-borealis.jpg"
               alt="pocket-borealis"
-              class="pocket-borealis-mobile"
+              class="pocket-borealis-mobile img"
             />
-            <legend class="night-legend">Pocket borealis</legend>
+            <legend class="legend">Pocket borealis</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-curiosity.jpg"
               alt="curiosity"
-              class="curiosity-mobile"
+              class="curiosity-mobile img"
             />
-            <legend class="night-legend">The curiosity</legend>
+            <legend class="legend">The curiosity</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-fisheye.jpg"
               alt="fisheye"
-              class="fisheye-mobile"
+              class="fisheye-mobile img"
             />
-            <legend class="fisheye-legend">Make it fisheye</legend>
+            <legend class="legend">Make it fisheye</legend>
           </fieldset>
         </div>
-        <button class="btn-mobile">See all</button>
+        <button class="btn-mobile btn">See all</button>
       </section>
       <section class="img-sect-desktop">
         <div class="middle-head">
@@ -195,10 +208,10 @@
         </div>
       </section>
 
-      <section class="footer-section">
-        <div class="logo-links">
+      <section class="footer-section flex">
+        <div class="logo-links flex">
           <img src="images/logo.svg" alt="logo" class="foot-logo" />
-          <nav class="footer-layout">
+          <nav class="footer-layout flex">
             <a href="http://links.html" class="nav-links">About</a>
             <a href="http://links.html" class="nav-links">Careers</a>
             <a href="http://links.html" class="nav-links">Events</a>
@@ -206,8 +219,8 @@
             <a href="http://links.html" class="nav-links">Support</a>
           </nav>
         </div>
-        <div class="icon-copyright">
-          <div class="icon-div">
+        <div class="icon-copyright flex">
+          <div class="icon-div flex">
             <a href="http://facebook.com">
               <img src="images/icon-facebook.svg" alt="fb" class="fb" />
             </a>
@@ -239,20 +252,21 @@
             </small>
           </div>
         </div>
+        <div class="footer-attribution">
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by
+            <a href="https://macchristo.github.io/Personal-site-1/"
+              >Macaulay Omoikhoje De-great</a
+            >.
+          </p>
+        </div>
       </section>
     </main>
-
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://macchristo.github.io/Personal-site-1/"
-          >Macaulay Omoikhoje De-great</a
-        >.
-      </p>
-    </footer>
 
     <script src="script.js"></script>
   </body>

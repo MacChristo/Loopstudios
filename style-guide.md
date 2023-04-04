@@ -35,7 +35,7 @@ The designs were created to the following widths:
 <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 
 font-family: 'Alata', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
+
 ## Icons
 
 We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
