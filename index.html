@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Macaulay Omoikhoje De-great" />
 
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link
       rel="icon"
       type="image/png"
@@ -23,32 +24,43 @@
       <section class="header-sect flex">
         <div class="main-head flex">
           <header class="flex" id="header">
-            <a href="http://index.html">
-              <img src="images/logo.svg" alt="Loopstudios-logo" class="logo" />
-            </a>
-            <img
-              src="images/icon-hamburger.svg"
-              alt="hamburger"
-              class="hamburger"
-            />
-            <nav class="nav-bar flex">
-              <a href="http://links.html" class="nav-links">About</a>
-              <a href="http://links.html" class="nav-links">Careers</a>
-              <a href="http://links.html" class="nav-links">Events</a>
-              <a href="http://links.html" class="nav-links">Products</a>
-              <a href="http://links.html" class="nav-links">Support</a>
+            <div class="hamburger-logo flex">
+              <a href="index.html">
+                <img
+                  src="images/logo.svg"
+                  alt="Loopstudios-logo"
+                  class="logo"
+                />
+              </a>
+              <img
+                src="images/icon-hamburger.svg"
+                alt="hamburger"
+                class="hamburger"
+              />
+              <img
+                src="images/icon-close.svg"
+                alt="menu-close"
+                class="menu-close hidden"
+              />
+            </div>
+            <nav class="nav-bar hidden flex">
+              <a href="dev.html" class="nav-links">About</a>
+              <a href="dev.html" class="nav-links">Careers</a>
+              <a href="dev.html" class="nav-links">Events</a>
+              <a href="dev.html" class="nav-links">Products</a>
+              <a href="dev.html" class="nav-links">Support</a>
             </nav>
           </header>
         </div>
         <div class="text-div">
-          <p class="header-text">Immersive experiences that deliver</p>
+          <p class="header-text reveal flex">Immersive experiences that deliver</p>
         </div>
       </section>
       <section class="head-gear">
         <img
           src="images/mobile/image-interactive.jpg"
           alt="VR"
-          class="vr-mobile img"
+          class="vr-mobile img reveal"
         />
         <img
           src="images/mobile/image-interactive.jpg"
@@ -72,73 +84,73 @@
             <img
               src="images/mobile/image-deep-earth.jpg"
               alt="deep-earth"
-              class="deep-earth-mobile img"
+              class="deep-earth-mobile img reveal_img"
             />
-            <legend class="legend">Deep earth</legend>
+            <legend class="legend reveal">Deep earth</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-night-arcade.jpg"
               alt="night-arcade"
-              class="night-arcade-mobile img"
+              class="night-arcade-mobile img reveal_img"
             />
-            <legend class="legend">Night arcade</legend>
+            <legend class="legend reveal">Night arcade</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-soccer-team.jpg"
               alt="soccer-team"
-              class="soccer-team-mobile img"
+              class="soccer-team-mobile img reveal_img"
             />
-            <legend class="legend">Soccer team VR</legend>
+            <legend class="legend reveal">Soccer team VR</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-grid.jpg"
               alt="grid"
-              class="grid-mobile img"
+              class="grid-mobile img reveal_img"
             />
-            <legend class="grid-legend legend">The grid</legend>
+            <legend class="grid-legend legend reveal">The grid</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-from-above.jpg"
               alt="from-above"
-              class="from-above-mobile img"
+              class="from-above-mobile img reveal_img"
             />
-            <legend class="legend">From up above VR</legend>
+            <legend class="legend reveal">From up above VR</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-pocket-borealis.jpg"
               alt="pocket-borealis"
-              class="pocket-borealis-mobile img"
+              class="pocket-borealis-mobile img reveal_img"
             />
-            <legend class="legend">Pocket borealis</legend>
+            <legend class="legend reveal">Pocket borealis</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-curiosity.jpg"
               alt="curiosity"
-              class="curiosity-mobile img"
+              class="curiosity-mobile img reveal_img"
             />
-            <legend class="legend">The curiosity</legend>
+            <legend class="legend reveal">The curiosity</legend>
           </fieldset>
           <fieldset>
             <img
               src="images/mobile/image-fisheye.jpg"
               alt="fisheye"
-              class="fisheye-mobile img"
+              class="fisheye-mobile img reveal_img"
             />
-            <legend class="legend">Make it fisheye</legend>
+            <legend class="legend reveal">Make it fisheye</legend>
           </fieldset>
         </div>
-        <button class="btn-mobile btn">See all</button>
+        <a href="dev.html"><button class="btn-mobile btn reveal_img">See all</button></a>
       </section>
       <section class="img-sect-desktop">
         <div class="middle-head">
           <h1 class="creation">Our creations</h1>
-          <button class="btn-desktop">See all</button>
+          <a href="dev.html"><button class="btn-desktop">See all</button></a>
         </div>
         <div class="img-div-desktop">
           <fieldset>
@@ -212,37 +224,37 @@
         <div class="logo-links flex">
           <img src="images/logo.svg" alt="logo" class="foot-logo" />
           <nav class="footer-layout flex">
-            <a href="http://links.html" class="nav-links">About</a>
-            <a href="http://links.html" class="nav-links">Careers</a>
-            <a href="http://links.html" class="nav-links">Events</a>
-            <a href="http://links.html" class="nav-links">Products</a>
-            <a href="http://links.html" class="nav-links">Support</a>
+            <a href="dev.html" class="nav-links reveal_img">About</a>
+            <a href="dev.html" class="nav-links reveal_img">Careers</a>
+            <a href="dev.html" class="nav-links reveal_img">Events</a>
+            <a href="dev.html" class="nav-links reveal_img">Products</a>
+            <a href="dev.html" class="nav-links reveal_img">Support</a>
           </nav>
         </div>
         <div class="icon-copyright flex">
           <div class="icon-div flex">
             <a href="http://facebook.com">
-              <img src="images/icon-facebook.svg" alt="fb" class="fb" />
+              <img src="images/icon-facebook.svg" alt="fb" class="fb reveal" />
             </a>
             <a href="http://twitter.com">
               <img
                 src="images/icon-twitter.svg"
                 alt="twitter"
-                class="twitter"
+                class="twitter reveal"
               />
             </a>
             <a href="http://pinterest.com">
               <img
                 src="images/icon-pinterest.svg"
                 alt="pinterest"
-                class="pinterest"
+                class="pinterest reveal"
               />
             </a>
             <a href="http://instagram.com">
               <img
                 src="images/icon-instagram.svg"
                 alt="instagram"
-                class="insta"
+                class="insta reveal"
               />
             </a>
           </div>
