@@ -25,9 +25,9 @@ menuClose.addEventListener("click", function () {
 })
 
 //SCROLLREVEAL CODE
-window.sr = scrollReveal()
-const reveal = documents.querySelector(".reveal")
-const reveal_img = documents.querySelector(".reveal_img")
+window.sr = ScrollReveal();
+const reveal = document.querySelector(".reveal");
+const reveal_img = document.querySelector(".reveal_img");
 
 //the basic command is sr.reveal("target", "option{code}")
 sr.reveal(".reveal", {
@@ -57,3 +57,5 @@ sr.reveal(".reveal_navbar", {
     easing: "ease-in-out",
     viewFactor: 0.1,
 })
+
+import "./create.js"
