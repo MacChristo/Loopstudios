@@ -38,7 +38,7 @@ sr.reveal(".reveal", {
     reset: true,
     easing: "ease-in-out",
     viewFactor: 0.5,
-})
+});
 sr.reveal(".reveal_img", {
     duration: 500,
     delay: 300,
@@ -47,7 +47,7 @@ sr.reveal(".reveal_img", {
     reset: true,
     easing: "ease-in-out",
     viewFactor: 0.1,
-})
+});
 sr.reveal(".reveal_navbar", {
     duration: 500,
     delay: 300,
@@ -56,6 +56,4 @@ sr.reveal(".reveal_navbar", {
     reset: true,
     easing: "ease-in-out",
     viewFactor: 0.1,
-})
-
-import "./create.js"
+});
