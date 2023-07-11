@@ -5,6 +5,7 @@ const menuClose = document.querySelector(".menu-close")
 const header = document.getElementById("header");
 const headSection = document.querySelector(".header-sect");
 const textDiv = document.querySelector(".text-div");
+const loader = document.querySelector(".loader")
 
 //DISPLAY AND HIDE THE NAV-BAR
 hamburger.addEventListener("click", function () {
@@ -50,4 +51,7 @@ sr.reveal(".reveal_img", {
     viewFactor: 0.1,
 });
 
+window.addEventListener("load", () => {
+    loader.classList.add("hide")
+})
 
