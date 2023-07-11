@@ -1,3 +1,4 @@
+import "./create.js"
 const navBar = document.querySelector(".nav-bar");
 const hamburger = document.querySelector(".hamburger");
 const menuClose = document.querySelector(".menu-close")
@@ -48,12 +49,5 @@ sr.reveal(".reveal_img", {
     easing: "ease-in-out",
     viewFactor: 0.1,
 });
-sr.reveal(".reveal_navbar", {
-    duration: 500,
-    delay: 300,
-    origin: "top",
-    distance: "50px",
-    reset: true,
-    easing: "ease-in-out",
-    viewFactor: 0.1,
-});
+
+

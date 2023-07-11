@@ -417,6 +417,7 @@ fieldset img {
 }
 
 @media screen and (min-width: 1000px) {
+
     #body {
         min-height: 380vh;
     }
